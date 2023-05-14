@@ -6,7 +6,8 @@
 	=>	npm install axios
 	=>	npm install bootstrap
 	=>	npm install uuid	//	how to use//	import { v4 as uuidv4 } from "uuid"
-
+# to clear cash
+	=>	npx expo --c
 
 # npm for React-native
 	=>	npm install expo-cli –g 	// expo cli tool 
