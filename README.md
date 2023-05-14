@@ -41,4 +41,14 @@
 	=>	npm i nodemon
 	=>	npm i mongodb
 	=> 	npm i cors	//	app.use(cors());
+	
+# pacakges 
 
+	=>	@react-navigation/​bottom-tabs
+ 	=>	@react-navigation/​drawer
+	=>	@react-navigation/​material-bottom-tabs
+ 	=>	@react-navigation/​material-top-tabs
+	=>	@react-navigation/​stack
+	=>	@react-navigation/​native-stack
+ 	=>	react-native-tab-view
+ 	=>	flipper-plugin-react-navigation
