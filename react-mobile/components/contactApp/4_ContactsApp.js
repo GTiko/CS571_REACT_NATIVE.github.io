@@ -1,10 +1,9 @@
-import { Button, Text, View, SafeAreaView, ActivityIndicator } from "react-native";
-import { styles } from "./AppStyles";
-import { createContact, contacts } from "./components/contactApp/contacts";
-import { AllContacts } from "./components/contactApp/AllContacts";
-import { SingleContact } from "./components/contactApp/singleContact";
+import { Button, StyleSheet, View, SafeAreaView, ActivityIndicator } from "react-native";
+import { createContact, contacts } from "./contacts";
+import { AllContacts } from "./AllContacts";
+import { SingleContact } from "./singleContact";
 import { useEffect, useState } from "react";
-import { AddNewContact } from "./components/contactApp/addNewContact";
+import { AddNewContact } from "./addNewContact";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function App() {
@@ -119,3 +118,14 @@ export default function App() {
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: "column",
+    backgroundColor: "#fff",
+    alignItems: "center",
+    margin:10,
+    fontSize:30
+  },
+});
