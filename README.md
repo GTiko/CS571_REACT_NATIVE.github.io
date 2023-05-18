@@ -43,9 +43,8 @@
 	=>	npm i express
 	=>	npm i nodemon
 	=>	npm i mongodb
-	=> 	npm i cors	//	app.use(cors()); // 
-	or
-	app.use(cors({ origin: "*",));
+	=> 	npm i cors	//	app.use(cors()); // or	app.use(cors({ origin: "*"))
+	=>	npm i jsonwebtoken
 	
 # pacakges 
 
