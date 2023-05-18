@@ -5,17 +5,44 @@
 	=>	npm install react-router-dom
 	=>	npm install axios
 	=>	npm install bootstrap
-	=>	npm install uuid	//	how to use//	import { v4 as uuidv4 } from "uuid"
+	=>	npm install uuid	/​	how to use/​	import { v4 as uuidv4 } from "uuid"
 # to clear cash
 	=>	npx expo -c
 
 # npm for React-native
-	=>	npm install expo-cli –g 	// expo cli tool 
-	=>	expo init <projectName> 	// will add expo SDK in node_modules
+	=>	npm install expo-cli –g 	/​ expo cli tool 
+	=>	expo init <projectName> 	/​ will add expo SDK in node_modules
 	=>	npm start or expo start
 
 # npm for localStorage
-	=>	npm install @react-native-async-storage/async-storage		//for AsyncStorage
+	=>	npm install @react-native-async-storage/async-storage		/​for AsyncStorage
+	
+		*example	
+			=>   (getitem) 
+				  const [data, setData] = useState([]);
+
+					  useEffect(() => {
+					    async function getPhotoFile() {
+					      try {
+						const result = await AsyncStorage.getItem(KEY);
+						if (result) {
+						  const allFiles = JSON.parse(result);
+						  setData(allFiles);
+						}
+					      } catch (error) {
+						console.log(error);
+					      }
+					    }
+					    getPhotoFile();
+					  }, []);
+					 
+			=>   (setItem)
+				const newData = [...data];
+				    try {
+					    await AsyncStorage.setItem(KEY, JSON.stringify(newData));
+					 } catch (error) {
+					      console.log(error);
+				    }
 	
   
 # npm for navigation
@@ -28,13 +55,13 @@
 # npm for Drawer Navigator
 	=>	npm install @react-navigation/drawer
 	=>	npx expo install react-native-gesture-handler react-native-reanimated
-	=>	and add -->	plugins: ["react-native-reanimated/plugin"] <--  to the bable.confige.js
+	=>	and add -->​	plugins: ["react-native-reanimated/plugin"] 	​<--  to the |​bable.confige.js​|
 
 
 # npm for Bottom Tab Navigator
 	=>	npm install @react-navigation/bottom-tabs
-	=>	npm install @react-navigation/material-bottom-tabs // optinal for the above npm 
-	=>	npm install react-native-vector-icons	// to show home icon.
+	=>	npm install @react-navigation/material-bottom-tabs /​ optinal for the above npm 
+	=>	npm install react-native-vector-icons	/​ to show home icon.
 	=> 	npm install react-native-vector-icons/Ionicons
 
 
@@ -43,7 +70,7 @@
 	=>	npm i express
 	=>	npm i nodemon
 	=>	npm i mongodb
-	=> 	npm i cors	//	app.use(cors()); // or	app.use(cors({ origin: "*"))
+	=> 	npm i cors	/​	app.use(cors()); /​ or	app.use(cors({ origin: "*"))
 	=>	npm i jsonwebtoken
 	=>	npm i bcrypt
 	
@@ -60,14 +87,14 @@
 	
 # npm for expo api for location
 
-	=>	npm install expo-location	//	import * as Location from 'expo-location';
+	=>	npm install expo-location	/​	import * as Location from 'expo-location';
 		*example:	let location = await Location.getCurrentPositionAsync({});
 				//const location = await Location.geocodeAsync('1000 N 4th Street, 52556');
 				const where = await Location.reverseGeocodeAsync(location.coords);
 	
 # npm for expo api for MapView and Marker
 
-	=>	npm install react-native-maps 	// 	import MapView, { Marker } from 'react-native-maps';
+	=>	npm install react-native-maps 	/​ 	import MapView, { Marker } from 'react-native-maps';
 	
 		*example	<MapView style={{width: "100%", height: "100%"}}>
  					<Marker draggable coordinate={coords} pinColor="blue" />
@@ -119,7 +146,7 @@
 
 # npm for expo api for ImagePicker
 	
-	=>	npm install expo-image-picker	//	import * as ImagePicker from 'expo-image-picker';
+	=>	npm install expo-image-picker	/​	import * as ImagePicker from 'expo-image-picker';
 	
 		*example	export default function App() {
 				 const [img, setImg] = useState(null);
@@ -158,8 +185,8 @@
 				
 # npm for expo api for Camera
 	
-	=>	npm insatll expo-camera		//	import { Camera } from 'expo-camera';
-	=>	npm insatll expo-media-library		//	import * as MediaLibrary from 'expo-media-library';
+	=>	npm insatll expo-camera		/​	import { Camera } from 'expo-camera';
+	=>	npm insatll expo-media-library		/​	import * as MediaLibrary from 'expo-media-library';
 		
 		*example	
 			import { useEffect, useRef, useState } from "react";
