@@ -45,6 +45,7 @@
 	=>	npm i mongodb
 	=> 	npm i cors	//	app.use(cors()); // or	app.use(cors({ origin: "*"))
 	=>	npm i jsonwebtoken
+	=>	npm i bcrypt
 	
 # pacakges 
 
