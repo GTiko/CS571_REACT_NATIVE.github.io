@@ -13,6 +13,8 @@
 	=>	npm install expo-cli –g 	// expo cli tool 
 	=>	expo init <projectName> 	// will add expo SDK in node_modules
 	=>	npm start or expo start
+
+# npm for localStorage
 	=>	npm install @react-native-async-storage/async-storage		//for AsyncStorage
 	
   
