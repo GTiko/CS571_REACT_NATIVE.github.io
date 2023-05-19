@@ -15,6 +15,7 @@
 	
 # npm for to fetch data
 	=>	npm install axios
+	=> 	if you use fetch("...") use your local ip address instaed of localhost otherwise it might not work for window users
 
 
 # to clear cash
