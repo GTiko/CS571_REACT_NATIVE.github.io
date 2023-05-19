@@ -7,6 +7,13 @@
 	=>	npm install bootstrap
 	=>	npm install uuid	/​	how to use/​	import { v4 as uuidv4 } from "uuid"
 	
+	
+# npm for React-native
+	=>	npm install expo-cli –g 	/​ expo cli tool 
+	=>	expo init <projectName> 	/​ will add expo SDK in node_modules
+	=>	npm start or expo start
+	
+
 # to clear cash
 	=>	npx expo -c
 	
@@ -17,12 +24,7 @@
 	=>	npm install @react-navigation/native-stack
 	=>	npm install @react-navigation/stack
 	
-	
-# npm for React-native
-	=>	npm install expo-cli –g 	/​ expo cli tool 
-	=>	expo init <projectName> 	/​ will add expo SDK in node_modules
-	=>	npm start or expo start
-	
+
 # npm for Drawer Navigator
 	=>	npm install @react-navigation/drawer
 	=>	npx expo install react-native-gesture-handler react-native-reanimated
