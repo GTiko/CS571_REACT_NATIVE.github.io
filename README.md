@@ -13,6 +13,9 @@
 	=>	expo init <projectName> 	/​ will add expo SDK in node_modules
 	=>	npm start or expo start
 	
+# npm for to fetch data
+	=>	npm install axios
+
 
 # to clear cash
 	=>	npx expo -c
