@@ -171,8 +171,7 @@
 				      aspect: [4, 3],
 				      quality: 1,
 				    });
-				    console.log(result);
-				    setImg(result[0].uri);
+				    setImg(result.uri);
 				  };
 
 				  return (
