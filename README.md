@@ -177,7 +177,7 @@
 				      aspect: [4, 3],
 				      quality: 1,
 				    });
-				    setImg(result.uri);
+				    setImg(result.assets[0].uri);
 				  };
 
 				  return (
