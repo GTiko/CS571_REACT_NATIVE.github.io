@@ -12,6 +12,7 @@
 	=>	npm install expo-cli –g 	/​ expo cli tool 
 	=>	expo init <projectName> 	/​ will add expo SDK in node_modules
 	=>	npm start or expo start
+	=>	npm install react-native-uuid --save
 	
 # npm for to fetch data
 	=>	npm install axios
