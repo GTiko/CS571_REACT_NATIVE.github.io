@@ -1,0 +1,17 @@
+{
+  "name": "homework01-gtiko-1",
+  "version": "1.0.0",
+  "description": "* Create an Express web server that receives a `GET` request to `/lucas`. This route will receive a number passed in the request as query parameter as following: `http://localhost:3000/lucas?n=5` and returns a `JSON` object contains the Lucas number of `n`. Reference: https://en.wikipedia.org/wiki/Lucas_number\r * Write a middleware to validate that the users are passing `n` as query parameter and the value is a valid `number`.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

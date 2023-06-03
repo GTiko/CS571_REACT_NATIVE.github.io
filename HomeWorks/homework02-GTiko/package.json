@@ -1,0 +1,18 @@
+{
+  "name": "homework02-gtiko",
+  "version": "1.0.0",
+  "description": "Please find below an Express application that connects to a MongoDB instance, each document has the following structure for `schools` collection:\r ```JavaScript\r {\r     \"_id\":1,\r     \"teachers\": [\r         {\"_id\":1, \"name\":\"Asaad\"},\r         {\"_id\":2, \"name\":\"Umur\"}\r     ],\r     \"courses\":[\r         {\"_id\":1, \"title\": \"CS477\", \"students\":[\r             {\"_id\":1, \"name\":\"John\"},\r             {\"_id\":2, \"name\":\"Selin\"}\r         ]},\r         {\"_id\":2, \"title\": \"CS571\", \"students\":[\r             {\"_id\":1, \"name\":\"Alican\"},\r             {\"_id\":2, \"name\":\"Dean\"}\r         ]},\r         {\"_id\":3, \"title\": \"CS415\", \"students\":[\r             {\"_id\":1, \"name\":\"Tina\"},\r             {\"_id\":2, \"name\":\"Clyde\"}\r         ]}\r     ]\r }\r ```\r Your are responsible on writing code for 6 MongoDB queries within 6 pre-defined routes in `app.js` file:\r 1. Add teacher\r 2. Update teacher\r 3. Delete teacher\r 4. Add a new student to specific course\r 5. Update a student's name\r 6. Delete a student",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "nodemon": "^2.0.22"
+  }
+}

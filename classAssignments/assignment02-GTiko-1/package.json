@@ -1,0 +1,18 @@
+{
+  "name": "assignment02-gtiko-1",
+  "version": "1.0.0",
+  "description": "* Create a new folder\r * Initialize the project in the above directory using: npm init -y\r * Install and setup nodemon to run the app by: npm start\r ## Connect this app to Mongo Atlas using MongoDB\r ## Given the collection 'products'. Please implement the following functions\r ```JavaScript\r {\r     \"_id\":1,\r     \"name\": \"iPhone 14\",\r     \"properties\": [\r         {\"_id\": 1, name: \"Pro Max\", \"color\": \"silver\"},\r         {\"_id\": 2, name: \"Pro Max\", \"color\": \"black\"},\r         {\"_id\": 3, name: \"Pro\", \"color\": \"white\"},\r     ]\r }\r ```\r * Insert a new product\r * Update the name of a product by _id\r * Add a new property\r * Update the color of a properties by _id\r * Delete a property by _id",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "nodemon": "^2.0.22"
+  }
+}
